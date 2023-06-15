@@ -1,7 +1,8 @@
 # Climate-Change-in-Data-Science 数据科学在气候预测中的应用
 
-Author: Wentao Gao
-Github: https://github.com/gwt9970161/Climate-Change-in-Data-Science
+***Author: Wentao Gao***
+
+***Github: https://github.com/gwt9970161/Climate-Change-in-Data-Science***
 
 This project is what I am doing for now during my PhD research. I will mainly focused on casual network. 根据目前对该项目的了解：需要了解的知识包括以下几个类别：
    
