@@ -6,7 +6,7 @@
 
 ***Github: https://github.com/gwt9970161/Climate-Change-in-Data-Science***
 
-This project is what I am doing for now during my PhD research. I will mainly focused on casual network. 根据目前对该项目的了解：需要了解的知识包括以下几个类别：
+This project is what I am doing for now during my PhD research. I will mainly focused on casual network. 根据目前对该项目的了解，需要将因果推断与时间序列相结合，找到在时间段而非单一时间中进行因果推断，并且最终应用在气候预测中，减少对预测的干扰，提高气候预测的准确率，需要了解的知识包括以下几个类别：
    
    - Casual Inference，
    
