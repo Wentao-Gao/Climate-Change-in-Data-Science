@@ -14,6 +14,10 @@ This project is what I am doing for now during my PhD research. I will mainly fo
 
    - CMIP data analysis
 
+## Todo list:
+
+- **Causal networks for climate model evaluation and constrained projections** 理解并整理进行中
+- CMIP5/6 数据下载并整理成易使用的版本
 
 ## Toolboxes
 ***（摘自仓库 [awesome-causality-algorithms](https://github.com/rguo12/awesome-causality-algorithms) ）***
