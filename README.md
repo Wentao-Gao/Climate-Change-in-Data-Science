@@ -16,7 +16,7 @@ This project is what I am doing for now during my PhD research. I will mainly fo
 
 ## Todo list:
 
-- **Causal networks for climate model evaluation and constrained projections** 理解并整理进行中
+- **[Causal networks for climate model evaluation and constrained projections](https://www.nature.com/articles/s41467-020-15195-y/)** 理解并整理进行中
 - CMIP5/6 数据下载并整理成易使用的版本
 
 ## Toolboxes
