@@ -18,8 +18,8 @@ This project is what I am doing for now during my PhD research. 根据目前对�
 ### Comprehensive
 |Name|Paper|Code|
 |---|---|---|
-|Trustworthy AI|This repository aims to include trustworthy AI related projects from Huawei Noah's Ark Lab. Current projects include:Causal Structure Learning, Causal Disentangled Representation Learning, gCastle (or pyCastle, pCastle).|[Python](https://github.com/huawei-noah/trustworthyAI)|
-|[YLearn](https://ylearn.readthedocs.io/en/latest/)|YLearn, a pun of “learn why”, is a python package for causal learning which supports various aspects of causal inference ranging from causal discovery，causal effect identification, causal effect estimation, counterfactual inference，policy learning，etc.|[Python](https://github.com/DataCanvasIO/YLearn)|
+|Trustworthy AI|Paper: [gCastle: A Python Toolbox for Causal Discovery](https://arxiv.org/pdf/2111.15155.pdf) Preview:This repository aims to include trustworthy AI related projects from Huawei Noah's Ark Lab. 目前的项目包括：因果结构学习，因果分解表征学习 Current projects include:Causal Structure Learning, Causal Disentangled Representation Learning, gCastle (or pyCastle, pCastle).|[Python](https://github.com/huawei-noah/trustworthyAI)|
+|[YLearn](https://ylearn.readthedocs.io/en/latest/)|[Doc](https://ylearn.readthedocs.io/zh_CN/latest/index.html) YLearn, a pun of “learn why”, is a python package for causal learning which supports various aspects of causal inference ranging from causal discovery，causal effect identification, causal effect estimation, counterfactual inference，policy learning，etc.|[Python](https://github.com/DataCanvasIO/YLearn)|
 
 ### Treatment Effect Estimation / Uplift Modeling
 |Name|Paper|Code|
