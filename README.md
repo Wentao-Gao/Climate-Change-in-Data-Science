@@ -1,15 +1,81 @@
-# Climate-Change-in-Data-Science
-This project is what I am doing for now during my PhD research.
+# Climate-Change-in-Data-Science 数据科学在气候预测中的应用
+
+Author: Wentao Gao
+Github: https://github.com/gwt9970161/Climate-Change-in-Data-Science
+
+This project is what I am doing for now during my PhD research. 根据目前对该项目的了解：需要了解的知识包括以下几个类别：
+   
+   - Casual Inference，
+   
+   - Time Series,
+
+   - CMIP data analysis
+
+
+## Toolboxes
+***（摘自仓库 [awesome-causality-algorithms](https://github.com/rguo12/awesome-causality-algorithms) ）***
+
+### Comprehensive
+|Name|Paper|Code|
+|---|---|---|
+|Trustworthy AI|This repository aims to include trustworthy AI related projects from Huawei Noah's Ark Lab. Current projects include:Causal Structure Learning, Causal Disentangled Representation Learning, gCastle (or pyCastle, pCastle).|[Python](https://github.com/huawei-noah/trustworthyAI)|
+|[YLearn](https://ylearn.readthedocs.io/en/latest/)|YLearn, a pun of “learn why”, is a python package for causal learning which supports various aspects of causal inference ranging from causal discovery，causal effect identification, causal effect estimation, counterfactual inference，policy learning，etc.|[Python](https://github.com/DataCanvasIO/YLearn)|
+
+### Treatment Effect Estimation / Uplift Modeling
+|Name|Paper|Code|
+|---|---|---|
+|DoWhy|[Amit Sharma and Emre Kiciman. "Tutorial on Causal Inference and Counterfactual Reasoning." In ACM SIGKDD 2018](http://causalinference.gitlab.io/kdd-tutorial/)|[Python](https://github.com/microsoft/dowhy)|
+|EconML|["Causal Inference and Machine Learning in Practice with EconML and CausalML" In EconML/CausalML KDD 2021 Tutorial](https://causal-machine-learning.github.io/kdd2021-tutorial/)|[Python](https://econml.azurewebsites.net/spec/spec.html)|
+|Uber CausalML|[Chen, Huigang, et al. "Causalml: Python package for causal machine learning." arXiv preprint arXiv:2002.11631 (2020).](https://arxiv.org/pdf/2002.11631.pdf)|[Python](https://github.com/uber/causalml)|
+|JustCause|For evaluation of heterogeneous treatment effect estimators on common reference as well as synthetic data. [Underlying thesis](https://justcause.readthedocs.io/en/latest/_downloads/e054f7a0fc9cf9e680173600cb4b4350/thesis-mfranz.pdf)|[Python](https://github.com/inovex/justcause)|
+|WhyNot|An experimental sandbox for causal inference and decision making in dynamics. [Documentation](https://whynot.readthedocs.io/en/latest/)|[Python](https://github.com/zykls/whynot)|
+|scikit-uplift|Uplift modeling in scikit-learn style in python. [Documentation](https://www.uplift-modeling.com/en/latest/index.html) and [User guide for uplift modeling](https://www.uplift-modeling.com/en/latest/user_guide/index.html)|[Python](https://github.com/maks-sh/scikit-uplift)|
+
+### Causal Discovery
+|Name|Paper|Code|
+|---|---|---|
+|[Bench Press](https://benchpressdocs.readthedocs.io/en/latest/)|Reproducible and scalable execution and benchmarks of **41** structure learning algorithms supporting multiple language|[Code](https://github.com/felixleopoldo/benchpress)|
+|[causal-learn](https://causal-learn.readthedocs.io/en/latest/)|Causal Discovery for Python. A translation and extension of TETRAD.|[Python](https://github.com/cmu-phil/causal-learn)|
+|[TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html)|[Ramsey, Joseph D., Kun Zhang, Madelyn Glymour, Ruben Sanchez Romero, Biwei Huang, Imme Ebert-Uphoff, Savini Samarasinghe, Elizabeth A. Barnes, and Clark Glymour. "TETRAD-AToolbox FOR CAUSAL DISCOVERY."](https://www.atmos.colostate.edu/~iebert/PAPERS/CI2018_paper_35.pdf)|[R](https://github.com/bd2kccd/r-causal)|
+|Causaldag|Python package for the creation, manipulation, and learning of Causal DAGs|[code](https://github.com/uhlerlab/causaldag)|
+|CausalNex|A toolkit for causal reasoning with Bayesian Networks.|[Python](https://github.com/quantumblacklabs/causalnex)|
+|Tetrad|Tetrad is a modular, object-oriented program for causal inference.|[Java](https://github.com/cmu-phil/tetrad)|
+|CausalDiscoveryToolbox|[Kalainathan, Diviyan, and Olivier Goudet. "Causal Discovery Toolbox: Uncover causal relationships in Python." arXiv preprint arXiv:1903.02278 (2019).](https://arxiv.org/pdf/1903.02278)|[Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox)|
+
+
+### Other Applications
+|Name|Paper|Code|
+|---|---|---|
+|[Chaos Genius](https://www.chaosgenius.io/)|ML powered analytics engine for outlier/anomaly detection and root cause analysis.|[Python](https://github.com/chaos-genius/chaos_genius/)|
+
+
 
 ## Methods
 
 ### Casual inference
 
-- Casual inference 初识：基础知识框架建立
+- Casual inference 初识：基础知识框架建立. [Casual inference知识框架](https://www.notion.so/Casual-inference-c9fdbbbe33684c91af4ed1e79e33a6a1?pvs=21)
+
+    1. **概念和术语理解**：包括“因果效应”、“干预”、“潜在结果”等基本概念。
     
-    [Casual inference知识框架](https://www.notion.so/Casual-inference-c9fdbbbe33684c91af4ed1e79e33a6a1?pvs=21)
+    2. **潜在结果框架**（Potential Outcomes Framework）：这是研究因果推断的主要工具之一，通过定义“潜在结果”来量化和理解因果关系。
     
-- [大白话谈因果 - 知乎 (zhihu.com)](https://www.zhihu.com/column/c_1408014345809227776)
+    3. **图模型和因果图**（Graphical Models and Causal Diagrams）：这些工具可以帮助我们以视觉化的方式理解因果关系。其中，最有名的可能是Judea Pearl的因果图理论。   
+    
+    4. **反事实理论**（Counterfactual Theory）：这个理论是理解因果推断的另一种方式，其关注的是“如果没有发生，会怎样？”这类问题。
+    
+    5. **因果效应的估计**（Estimation of Causal Effects）：这是因果推断的主要目标，包括通过观察数据（Observational Data）和实验数据（Experimental Data）来估计因果效应。
+    
+    6. **随机试验和观察性研究**：随机试验（Randomized Experiments）通常被视为确定因果关系的"金标准"，但在许多情况下，我们无法进行随机试验，而必须依赖观察性研究（Observational Studies）。
+
+    7. **混淆和选择偏差**（Confounding and Selection Bias）：这两个问题是因果推断中需要特别注意的问题。混淆是因为一个未观察的变量同时影响了处理和结果，而选择偏差是因为处理的选择依赖于潜在的结果。
+    
+    8. **工具和方法**：包括匹配（Matching）、倾向评分（Propensity Score）、工具变量（Instrumental Variables）、中介分析（Mediation Analysis）等。
+    
+    9. **因果推断的实际应用**：在诸如经济学、流行病学、社会科学、机器学习等领域中的实际应用。
+   
+    
+- 这个系列用相对大白话的语言讲解了**因果推断的算法**  [大白话谈因果 - 知乎 (zhihu.com)](https://www.zhihu.com/column/c_1408014345809227776)
 - 总结到目前为止比较主流的做casual inference的方法，包括理论以及代码，实验
     - 这一节介绍了因果推断的基本概念
         
@@ -28,10 +94,6 @@ This project is what I am doing for now during my PhD research.
         [Awesome Casual inference Algorithms](https://www.notion.so/Awesome-Casual-inference-Algorithms-be23e24b0ddd4b9f810e5b219f8acfad?pvs=21)
         
 
-[主流方法以及代码](https://www.notion.so/aaee008d7673428abee8e30c10f16b44?pvs=21)
-
-- 做文献综述，在主流的方法总结基础上阅读该领域的最新方法与应用，将突破点总结归纳。与上一点一起合并成文献综述
-- Literature review
 
 ---
 
@@ -49,7 +111,7 @@ This project is what I am doing for now during my PhD research.
 
 - 时间序列分析 （分章节与小点介绍）
 
-[时间序列分析101：序言](https://skywateryang.gitbook.io/timeseriesanalysis101/)
+- 一份时间序列的纯小白入门教程，从基本概念，EDA，再到各种模型: [时间序列分析101：序言](https://skywateryang.gitbook.io/timeseriesanalysis101/)
 
 - https://github.com/qingsongedu/awesome-AI-for-time-series-papers
 - https://github.com/MaxBenChrist/awesome_time_series_in_python
