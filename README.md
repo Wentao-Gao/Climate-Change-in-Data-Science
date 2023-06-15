@@ -1,4 +1,6 @@
-# Climate-Change-in-Data-Science 数据科学在气候预测中的应用
+# Climate Change Prediction Using Casual Inference 
+
+因果推断在气候预测中的应用
 
 ***Author: Wentao Gao***
 
