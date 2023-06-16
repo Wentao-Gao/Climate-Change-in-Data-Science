@@ -16,7 +16,8 @@ This project is what I am doing for now during my PhD research. I will mainly fo
 
 ## Todo list:
 
-- **[Causal networks for climate model evaluation and constrained projections](https://www.nature.com/articles/s41467-020-15195-y/)** 理解并整理进行中
+- **[Causal networks for climate model evaluation and constrained projections](https://www.nature.com/articles/s41467-020-15195-y/)** 
+  - ***[Translation and Summary of the paper](https://www.notion.so/wentao-gao/Causal-networks-for-climate-model-evaluation-and-constrained-projections-1b78b4afe1a24ccca1a57d9d0bf776ec#d2eb67fd9a7a4b3daa3e518e403a51a8)***
   - 用了什么模型
   - 什么评价指标
   - 数据是如何处理的
