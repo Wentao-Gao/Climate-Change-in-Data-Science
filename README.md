@@ -25,6 +25,14 @@ This project is what I am doing for now during my PhD research. I will mainly fo
 5. 看Jiuyong老师给的论文，了解时间序列如何应用的Drought Prediction中。
 
 
+| Paper | Link | Summary |
+| --- | --- | --- |
+| Evaluation of Time Series Models in Simulating Different Monthly Scales of Drought Index for Improving Their Forecast Accuracy | https://ira.lib.polyu.edu.hk/bitstream/10397/96563/1/feart-10-839527.pdf | Keywords: differencing, time series, drought index, forecasting, standard precipitation |
+| Estimation of SPEI Meteorological Drought using Machine Learning Algorithms | https://research-repository.griffith.edu.au/bitstream/handle/10072/404189/Gyasi-Agyei483825-Published.pdf?sequence=2 | Drought events, SPEI, machine learning, Extreme Gradient Boost, Tibetan Plateau. |
+| Prediction of Impending Drought Scenarios Based on Surface and Subsurface Parameters in a Selected Region of Tropical Queensland,Australia | https://www.scirp.org/pdf/jwarp_2021081015095566.pdf | Keywords: Drought Prediction, Artificial Neural Network, Prediction Model, Dam Levels, Aquifer Salinity, Water Storage, Townsville Queensland |
+| Monthly drought prediction based on ensemble models | https://peerj.com/articles/9853.pdf | Keywords Standardized precipitation index, Equal ensemble drought prediction, Weighted ensemble drought prediction, Conditional ensemble drought prediction, Copulas |
+| A novel intelligent deep learning predictive model for meteorological drought forecasting | https://link.springer.com/article/10.1007/s12652-022-03701-7 | Keywords Deep learning · Long short-term memory · Drought forecasting · Convolutional networks |
+
 ## Todo list:
 
 - **[Causal networks for climate model evaluation and constrained projections](https://www.nature.com/articles/s41467-020-15195-y/)** 
