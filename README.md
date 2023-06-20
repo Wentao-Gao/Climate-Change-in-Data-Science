@@ -12,7 +12,7 @@ This project is what I am doing for now during my PhD research. I will mainly fo
    
    - Time Series,
 
-   - CMIP data analysis
+   - NCEP-NCAR Reanalysis 1 data analysis
 
 ## Todo list:
 
@@ -137,7 +137,27 @@ This project is what I am doing for now during my PhD research. I will mainly fo
 
 ## Dataset
 
-### CMIP6数据集：
+### NCEP-NCAR Reanalysis 1 数据集（Focus Now）
+
+[NCEP-NCAR Reanalysis 1](https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.html)可进网址下载.
+
+
+
+- netCDF数据读取以及处理
+- ArcGIS
+    - [Arcpy / Matlab / Arcgis处理CMIP6数据_PeanutbutterBoh的博客-CSDN博客](https://blog.csdn.net/weixin_43637490/article/details/124960959)
+    - [使用Arcgis处理CMIP6(netCDF)数据的流程 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/149845115?from_voters_page=true)
+- CDO基本操作
+    - [CDO简介及常用语法 | ZSYXY Meteorological workshop (yxy-biubiubiu.github.io)](https://yxy-biubiubiu.github.io/2020/06/07/cdo/)
+    - [CDO学习2 CDO 入门教程Tutorial - chinagod - 博客园 (cnblogs.com)](https://www.cnblogs.com/jiangleads/p/11146721.html)
+    - [CDO入门和使用实践_cdo使用_趴着喝可乐的博客-CSDN博客](https://blog.csdn.net/u011424614/article/details/120696468)
+- Xarray基本操作
+    - [Xarray 文档](https://docs.xarray.dev/en/stable/index.html)
+    - [(182条消息) xarray 使用教程 - 未完待续_可乐要加冰_ice的博客-CSDN博客](https://blog.csdn.net/mihuanchengbao/article/details/126641111)
+    - 以下作者将其将数据处理分多章讲解，包括配置环境与Xarray的使用
+        - https://www.zhihu.com/column/c_1422150022150877184 Python气象数据处理
+
+### CMIP6数据集：(暂且搁置)
 
 - Intro:
     
@@ -162,18 +182,7 @@ This project is what I am doing for now during my PhD research. I will mainly fo
         
         [ESGF MetaGrid](https://aims2.llnl.gov/search)
         
-- ArcGIS
-    - [Arcpy / Matlab / Arcgis处理CMIP6数据_PeanutbutterBoh的博客-CSDN博客](https://blog.csdn.net/weixin_43637490/article/details/124960959)
-    - [使用Arcgis处理CMIP6(netCDF)数据的流程 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/149845115?from_voters_page=true)
-- CDO基本操作
-    - [CDO简介及常用语法 | ZSYXY Meteorological workshop (yxy-biubiubiu.github.io)](https://yxy-biubiubiu.github.io/2020/06/07/cdo/)
-    - [CDO学习2 CDO 入门教程Tutorial - chinagod - 博客园 (cnblogs.com)](https://www.cnblogs.com/jiangleads/p/11146721.html)
-    - [CDO入门和使用实践_cdo使用_趴着喝可乐的博客-CSDN博客](https://blog.csdn.net/u011424614/article/details/120696468)
-- Xarray基本操作
-    - [Xarray 文档](https://docs.xarray.dev/en/stable/index.html)
-    - [(182条消息) xarray 使用教程 - 未完待续_可乐要加冰_ice的博客-CSDN博客](https://blog.csdn.net/mihuanchengbao/article/details/126641111)
-    - 以下作者将其将数据处理分多章讲解，包括配置环境与Xarray的使用
-        - https://www.zhihu.com/column/c_1422150022150877184 Python气象数据处理
+
 - 气候降尺度方法
 
 [降尺度](https://www.notion.so/55b93e7a9e874435b4ecd0c08dfa3dfe?pvs=21)
