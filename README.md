@@ -14,8 +14,9 @@ This project is what I am doing for now during my PhD research. I will mainly fo
 
    - NCEP-NCAR Reanalysis 1 data analysis
 
-## Weekly Plan:
+## Weekly plan:
 
+### Week 1(19/06/2023)
 1. 下载并处理netCDF4数据，输出一个包含特定经纬度的CSV格式数据，包括时间，温度，湿度，海平面压力以及我们所需预测的数据—降雨量。
 2. 用这个简单的数据进行时间序列分析。包括平稳性检验等。
 3. 使用一个简单的机器学习模型进行训练以及预测。
