@@ -19,10 +19,12 @@ This project is what I am doing for now during my PhD research. I will mainly fo
 ### Week 1(19/06/2023)
 1. 下载并处理netCDF4数据，输出一个包含特定经纬度的CSV格式数据，包括时间，温度，湿度，海平面压力以及我们所需预测的数据—降雨量。
 2. 用这个简单的数据进行时间序列分析。包括平稳性检验等。
+    - [Time Series data analysis.ipynb](https://colab.research.google.com/drive/1hu2gfUGSKEyGV9r5K6kG7mlPpKVz3aD7#scrollTo=ae4i6KHH211z)
 3. 使用一个简单的机器学习模型进行训练以及预测。
+    - [RNN Method - Prediction of precipitation.ipynb](https://colab.research.google.com/drive/1JQJJaEqXEAFCjlkjuqsEx0Zn1ykAdDhi#scrollTo=umofRzBWlcsw)
 4. 使用一个更好的模型来处理这个预测问题，在这里我选择了LSTM来处理。
-    - [LSTM预测降雨量.ipynb - Colaboratory (google.com)](https://colab.research.google.com/drive/1HE52cH7wIfjQl64MekuAGvopxx2SQtmu#scrollTo=ZlFnxgpCGl1j&uniqifier=1)
-5. 看Jiuyong老师给的论文，了解时间序列如何应用的Drought Prediction中。
+    - [LSTM Method - Prediction of Precipitation.ipynb](https://colab.research.google.com/drive/1HE52cH7wIfjQl64MekuAGvopxx2SQtmu#scrollTo=ZlFnxgpCGl1j&uniqifier=1)
+5. 看Jiuyong老师给的论文，了解时间序列如何应用在Drought Prediction中。
 
 
 | Paper | Link | 
