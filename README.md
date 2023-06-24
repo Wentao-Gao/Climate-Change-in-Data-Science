@@ -35,6 +35,7 @@ This project is what I am doing for now during my PhD research. I will mainly fo
 | Monthly drought prediction based on ensemble models | https://peerj.com/articles/9853.pdf | Keywords Standardized precipitation index, Equal ensemble drought prediction, Weighted ensemble drought prediction, Conditional ensemble drought prediction, Copulas |
 | A novel intelligent deep learning predictive model for meteorological drought forecasting | https://link.springer.com/article/10.1007/s12652-022-03701-7 | 
 
+
 ## Todo list:
 
 - **[Causal networks for climate model evaluation and constrained projections](https://www.nature.com/articles/s41467-020-15195-y/)** 
