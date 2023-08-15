@@ -18,6 +18,8 @@ This project is what I am doing for now during my PhD research. I will mainly fo
 
 Further Weekly plan will be posted in the ppt in the ***Weekly Report part***.
 
+The first 4 weeks are focus on the time series analysis and prediction. 5-8 weeks are focus on the causal inference framework. Week 4 and Week 8 are the summary of time series and causal inference seperately. Please find the summary notes if you are interested in these part.
+
 ### Week 1(19/06/2023)
 1. 下载并处理netCDF4数据，输出一个包含特定经纬度的CSV格式数据，包括时间，温度，湿度，海平面压力以及我们所需预测的数据—降雨量。
     - [把netCDF4文件转化为CSV文件.ipynb - Colaboratory](https://colab.research.google.com/drive/1mOIKYZ4DrjF4IH5llI0KKn68sRWawW6p)
