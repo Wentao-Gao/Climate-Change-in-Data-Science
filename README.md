@@ -149,33 +149,6 @@ The first 4 weeks are focus on the time series analysis and prediction. 5-8 week
         
 
 
----
-
----
-
-### Time Series
-
-- ****时间序列预测从入门到精通****
-
-[时间序列预测从入门到精通（一）：基础知识](https://zhuanlan.zhihu.com/p/393594761)
-
-[时间序列预测从入门到精通（二）：传统方法](https://zhuanlan.zhihu.com/p/393644272)
-
-[时间序列预测从入门到精通（三）：深度学习方法](https://zhuanlan.zhihu.com/p/393706324)
-
-- 时间序列分析 （分章节与小点介绍）
-
-- 一份时间序列的纯小白入门教程，从基本概念，EDA，再到各种模型: [时间序列分析101：序言](https://skywateryang.gitbook.io/timeseriesanalysis101/)
-
-- https://github.com/qingsongedu/awesome-AI-for-time-series-papers
-- https://github.com/MaxBenChrist/awesome_time_series_in_python
-- https://github.com/cuge1995/awesome-time-series
-- https://github.com/datamonday/Time-Series-Analysis-Tutorial : 包括了时间序列的论文以及博客
-
----
-
----
-
 ## Dataset
 
 ### NCEP-NCAR Reanalysis 1（Focus Now）
@@ -196,42 +169,4 @@ The first 4 weeks are focus on the time series analysis and prediction. 5-8 week
     - 以下作者将其将数据处理分多章讲解，包括配置环境与Xarray的使用
         - https://www.zhihu.com/column/c_1422150022150877184 Python气象数据处理
 
-### CMIP6：(Not now)
 
-- Intro:
-    
-    ***CMIP6，全称为耦合模型比较项目第6阶段（Coupled Model Intercomparison Project Phase 6）***，是气候科学研究中的一个重要项目。该项目旨在对全球气候模型的结果进行比较和评估，从而提高我们对地球气候系统的理解和预测未来气候变化的能力。
-    
-    CMIP6的主要目标包括：
-    
-    1. 评估模型对过去、现在和未来气候状态的模拟和预测能力。
-    2. 研究和理解气候反馈过程和气候敏感性。
-    3. 提供多个未来气候变化的情景路径，以供决策者和政策制定者参考。
-    
-    CMIP6数据集是一组大型的气候模型输出数据集，包括大量关于气候变量（如温度、降水、风速等）的数据。这些数据既包括过去（通过对历史气候变化的模拟）的数据，也包括未来（通过对不同排放情景下的未来气候变化进行模拟）的数据。
-    
-    [cmip6 - Home | ESGF-CoG](https://esgf-node.llnl.gov/projects/cmip6/)
-    
-- 数据下载
-    - 在以下网址直接搜索所需数据集（CMIP5 or CMIP6均可）
-        
-        [Copernicus Climate Data Store |](https://cds.climate.copernicus.eu/cdsapp#!/dataset/projections-cmip6?tab=overview)
-        
-    - 在以下网址通过索引搜索所需的数据集并下载（globus / wget）
-        
-        [ESGF MetaGrid](https://aims2.llnl.gov/search)
-        
-
-- 气候降尺度方法
-
-[降尺度](https://www.notion.so/55b93e7a9e874435b4ecd0c08dfa3dfe?pvs=21)
-
-***统计降尺度 （SD） 技术***
-
-为了提供可靠的数据集并突出统计缩减的敏感性，在分析中使用了三种不同的SD方法（如下所述）与GCM和RCP结合使用。每种技术都使用三个网格化观测数据产品（Daymet版本2.1，Livneh版本1.2和PRISM版本AN81d）来校准方法的准确性。
-
-1. 德尔塔法（DeltaSD） – 一种广泛使用的简单方法，假设变化发生在更大的区域范围内，并且气候变量之间的关系在未来情景中将保持不变。（[Pourmokhtarian等人，2016](https://doi.org/10.1890/15-0745))
-2. 等距分位数映射方法 （EDQM） – 这是分位数映射技术的修改版本，用于通过专门针对每月 GCM 输出的偏差校正来解释时间变化。（[李等人，2010](https://doi.org/10.1029/2009JD012882))
-3. 分段异步回归方法（PARM） – 与EDQM类似，该方法利用偏置校正技术，但也通过将一系列线拟合到点数据来解决采样变量的随机不规则性，以消除小规模噪声。（[兰赞特等人，2019](https://doi.org/10.1002/joc.6288))
-
-由于SD方法性能特征的可变性，使用这三种SD技术和各种观测数据产品表明，SD方法的选择可以影响产生的气候预测的可变性。
