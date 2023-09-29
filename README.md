@@ -2,6 +2,8 @@
 
 因果推断在气候预测中的应用
 
+If this helps, please star me and follow me. If you have any questions, please feel free to contact me.
+
 ***Author: Wentao Gao***
 
 ***Github: https://github.com/gwt9970161/Climate-Change-in-Data-Science***
