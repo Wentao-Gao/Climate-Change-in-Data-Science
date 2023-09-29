@@ -26,7 +26,7 @@ This project is what I am doing for now during my PhD research. I will mainly fo
 
 ## Weekly plan:
 
-Further Weekly plan will be posted in the ppt in the ***Weekly Report part***.
+Further Weekly plan will be posted in the ppt in the ***[Weekly Report part](https://github.com/Wentao-Gao/Climate-Change-in-Data-Science/tree/main/Weekly%20Report)***.
 
 The first 4 weeks are focus on the time series analysis and prediction. 5-8 weeks are focus on the causal inference framework. Week 4 and Week 8 are the summary of time series and causal inference seperately. Please find the summary notes if you are interested in these part.
 
