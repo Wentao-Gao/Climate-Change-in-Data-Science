@@ -1,6 +1,7 @@
-# Drought Prediction Using Casual Inference (In climate change)
+# Drought Prediction Using Causal Inference (In climate change)
 
 @causality @time series prediction @long term forcasting @feature selection @causal transfer learning
+
 
 因果推断在气候预测中的应用
 
@@ -11,6 +12,8 @@ If this helps, please star me and follow me. If you have any questions, please f
 ***Github: https://github.com/gwt9970161/Climate-Change-in-Data-Science***
 
 ***A quick overview of causality: [Causality: an intro](https://www.researchgate.net/publication/374233586_Causality_A_Brief_Intro)***
+
+***An introduction to AI: [Lecture Notes](https://www.notion.so/wentao-gao/Bristol-Intro-to-AI-8ba5854a9a8e49d9a2e1659af5446fa3)***
 
 This project is what I am doing for now during my PhD research. I will mainly focused on casual network. Based on the current understanding of the project, there is a need to integrate causal inference with time series analysis. The objective is to utlize causality in time series prediction. Here are some important part of my research.
    
