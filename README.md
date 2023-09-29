@@ -10,6 +10,8 @@ If this helps, please star me and follow me. If you have any questions, please f
 
 ***Github: https://github.com/gwt9970161/Climate-Change-in-Data-Science***
 
+***[Causality: an intro](https://www.researchgate.net/publication/374233586_Causality_A_Brief_Intro)***
+
 This project is what I am doing for now during my PhD research. I will mainly focused on casual network. Based on the current understanding of the project, there is a need to integrate causal inference with time series analysis. The objective is to utlize causality in time series prediction. Here are some important part of my research.
    
    - Casual Inference basis，
@@ -176,11 +178,9 @@ The first 4 weeks are focus on the time series analysis and prediction. 5-8 week
 
 ## Dataset
 
-### NCEP-NCAR Reanalysis 1 数据集（Focus Now）
+### NCEP-NCAR Reanalysis 1（Focus Now）
 
 [NCEP-NCAR Reanalysis 1](https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.html)可进网址下载.
-
-
 
 - netCDF数据读取以及处理
 - ArcGIS
@@ -196,7 +196,7 @@ The first 4 weeks are focus on the time series analysis and prediction. 5-8 week
     - 以下作者将其将数据处理分多章讲解，包括配置环境与Xarray的使用
         - https://www.zhihu.com/column/c_1422150022150877184 Python气象数据处理
 
-### CMIP6数据集：(暂且搁置)
+### CMIP6：(Not now)
 
 - Intro:
     
