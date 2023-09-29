@@ -1,5 +1,7 @@
 # Drought Prediction Using Casual Inference (In climate change)
 
+@causality @time series prediction @long term forcasting @feature selection @causal transfer learning
+
 因果推断在气候预测中的应用
 
 If this helps, please star me and follow me. If you have any questions, please feel free to contact me.
@@ -8,7 +10,7 @@ If this helps, please star me and follow me. If you have any questions, please f
 
 ***Github: https://github.com/gwt9970161/Climate-Change-in-Data-Science***
 
-This project is what I am doing for now during my PhD research. I will mainly focused on casual network. 根据目前对该项目的了解，需要将因果推断与时间序列相结合，找到在时间段而非单一时间中进行因果推断，并且最终应用在气候预测中，减少对预测的干扰，提高气候预测的准确率，需要了解的知识包括以下几个类别：
+This project is what I am doing for now during my PhD research. I will mainly focused on casual network. Based on the current understanding of the project, there is a need to integrate causal inference with time series analysis. The objective is to utlize causality in time series prediction. Here are some important part of my research.
    
    - Casual Inference basis，
    
@@ -27,16 +29,24 @@ Further Weekly plan will be posted in the ppt in the ***Weekly Report part***.
 The first 4 weeks are focus on the time series analysis and prediction. 5-8 weeks are focus on the causal inference framework. Week 4 and Week 8 are the summary of time series and causal inference seperately. Please find the summary notes if you are interested in these part.
 
 ### Week 1(19/06/2023)
-1. 下载并处理netCDF4数据，输出一个包含特定经纬度的CSV格式数据，包括时间，温度，湿度，海平面压力以及我们所需预测的数据—降雨量。
-    - [把netCDF4文件转化为CSV文件.ipynb - Colaboratory](https://colab.research.google.com/drive/1mOIKYZ4DrjF4IH5llI0KKn68sRWawW6p)
-    - [替换列加入主csv文件.ipynb - Colaboratory](https://colab.research.google.com/drive/1oySrXdK_yOxM0cGow9rHRk-zMchCL_oz)
-2. 用这个简单的数据进行时间序列分析。包括平稳性检验等。
-    - [Time Series data analysis.ipynb](https://colab.research.google.com/drive/1hu2gfUGSKEyGV9r5K6kG7mlPpKVz3aD7#scrollTo=ae4i6KHH211z)
-3. 使用一个简单的机器学习模型进行训练以及预测。
-    - [RNN Method - Prediction of precipitation.ipynb](https://colab.research.google.com/drive/1JQJJaEqXEAFCjlkjuqsEx0Zn1ykAdDhi#scrollTo=umofRzBWlcsw)
-4. 使用一个更好的模型来处理这个预测问题，在这里我选择了LSTM来处理。
-    - [LSTM Method - Prediction of Precipitation.ipynb](https://colab.research.google.com/drive/1HE52cH7wIfjQl64MekuAGvopxx2SQtmu#scrollTo=ZlFnxgpCGl1j&uniqifier=1)
-5. 看Jiuyong老师给的论文，了解时间序列如何应用在Drought Prediction中。
+1. **Download and process netCDF4 data**
+   - Output a CSV formatted data containing specific latitudes and longitudes, including time, temperature, humidity, sea-level pressure, and the data we need to predict—precipitation.
+     - [Convert netCDF4 file to CSV file.ipynb - Colaboratory](https://colab.research.google.com/drive/1mOIKYZ4DrjF4IH5llI0KKn68sRWawW6p)
+     - [Replace column and append to main CSV file.ipynb - Colaboratory](https://colab.research.google.com/drive/1oySrXdK_yOxM0cGow9rHRk-zMchCL_oz)
+
+2. **Conduct time series analysis**
+   - Using this simple data, including tests for stationarity and others.
+     - [Time Series data analysis.ipynb](https://colab.research.google.com/drive/1hu2gfUGSKEyGV9r5K6kG7mlPpKVz3aD7#scrollTo=ae4i6KHH211z)
+
+3. **Train and predict using a simple machine learning model**
+   - [RNN Method - Prediction of precipitation.ipynb](https://colab.research.google.com/drive/1JQJJaEqXEAFCjlkjuqsEx0Zn1ykAdDhi#scrollTo=umofRzBWlcsw)
+
+4. **Use a better model for prediction**
+   - Specifically, the LSTM method for tackling this prediction problem.
+     - [LSTM Method - Prediction of Precipitation.ipynb](https://colab.research.google.com/drive/1HE52cH7wIfjQl64MekuAGvopxx2SQtmu#scrollTo=ZlFnxgpCGl1j&uniqifier=1)
+
+5. **Research**
+   - Read the paper provided by Professor Jiuyong to understand how time series is applied in Drought Prediction.
 
 
 | Paper | Link | 
@@ -52,7 +62,7 @@ The first 4 weeks are focus on the time series analysis and prediction. 5-8 week
 
 - **[Causal networks for climate model evaluation and constrained projections](https://www.nature.com/articles/s41467-020-15195-y/)** 
   - ***[Translation and Summary of the paper](https://www.notion.so/wentao-gao/Causal-networks-for-climate-model-evaluation-and-constrained-projections-1b78b4afe1a24ccca1a57d9d0bf776ec#d2eb67fd9a7a4b3daa3e518e403a51a8)***
-- [Tigramite – 时间序列数据集的因果推理](https://github.com/jakobrunge/tigramite)
+- [Tigramite – causal inference in time series](https://github.com/jakobrunge/tigramite)
 
 ## Toolboxes for Causality
 ***（摘自仓库 [awesome-causality-algorithms](https://github.com/rguo12/awesome-causality-algorithms) ）***
@@ -96,25 +106,25 @@ The first 4 weeks are focus on the time series analysis and prediction. 5-8 week
 
 ### Casual inference
 
-- Casual inference 初识：基础知识框架建立. [Casual inference知识框架](https://www.notion.so/Casual-inference-c9fdbbbe33684c91af4ed1e79e33a6a1?pvs=21)
+- **Introduction to Casual Inference**: Laying the foundational framework. [Casual Inference Framework](https://www.notion.so/Casual-inference-c9fdbbbe33684c91af4ed1e79e33a6a1?pvs=21)
 
-    1. **概念和术语理解**：包括“因果效应”、“干预”、“潜在结果”等基本概念。
+    1. **Understanding of Concepts and Terminologies**: This includes fundamental concepts like "causal effect", "intervention", and "potential outcomes".
     
-    2. **潜在结果框架**（Potential Outcomes Framework）：这是研究因果推断的主要工具之一，通过定义“潜在结果”来量化和理解因果关系。
+    2. **Potential Outcomes Framework**: One of the primary tools to study causal inference, it quantifies and understands causal relationships by defining "potential outcomes".
     
-    3. **图模型和因果图**（Graphical Models and Causal Diagrams）：这些工具可以帮助我们以视觉化的方式理解因果关系。其中，最有名的可能是Judea Pearl的因果图理论。   
+    3. **Graphical Models and Causal Diagrams**: These tools aid in visualizing causal relationships. Notably, Judea Pearl's causal diagram theory is among the most prominent.
     
-    4. **反事实理论**（Counterfactual Theory）：这个理论是理解因果推断的另一种方式，其关注的是“如果没有发生，会怎样？”这类问题。
+    4. **Counterfactual Theory**: Another approach to understanding causal inference. It focuses on "what would have happened if not?" type of questions.
     
-    5. **因果效应的估计**（Estimation of Causal Effects）：这是因果推断的主要目标，包括通过观察数据（Observational Data）和实验数据（Experimental Data）来估计因果效应。
+    5. **Estimation of Causal Effects**: The primary objective of causal inference, it estimates causal effects through both observational and experimental data.
     
-    6. **随机试验和观察性研究**：随机试验（Randomized Experiments）通常被视为确定因果关系的"金标准"，但在许多情况下，我们无法进行随机试验，而必须依赖观察性研究（Observational Studies）。
-
-    7. **混淆和选择偏差**（Confounding and Selection Bias）：这两个问题是因果推断中需要特别注意的问题。混淆是因为一个未观察的变量同时影响了处理和结果，而选择偏差是因为处理的选择依赖于潜在的结果。
+    6. **Randomized Experiments and Observational Studies**: Randomized experiments are often considered the "gold standard" for determining causality. However, in many instances where such experiments are not feasible, we have to rely on observational studies.
     
-    8. **工具和方法**：包括匹配（Matching）、倾向评分（Propensity Score）、工具变量（Instrumental Variables）、中介分析（Mediation Analysis）等。
+    7. **Confounding and Selection Bias**: Both are pivotal concerns in causal inference. Confounding arises when an unobserved variable affects both the treatment and the outcome, whereas selection bias emerges when the choice of treatment depends on potential outcomes.
     
-    9. **因果推断的实际应用**：在诸如经济学、流行病学、社会科学、机器学习等领域中的实际应用。
+    8. **Tools and Techniques**: This includes matching, propensity score, instrumental variables, mediation analysis, etc.
+    
+    9. **Practical Applications of Causal Inference**: How causal inference is applied in real-world scenarios in fields such as economics, epidemiology, social sciences, machine learning, among others.
    
     
 - 这个系列用相对大白话的语言讲解了**因果推断的算法**  [大白话谈因果 - 知乎 (zhihu.com)](https://www.zhihu.com/column/c_1408014345809227776)
