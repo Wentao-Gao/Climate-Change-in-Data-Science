@@ -50,11 +50,6 @@ The first 4 weeks are focus on the time series analysis and prediction. 5-8 week
 
 - **[Causal networks for climate model evaluation and constrained projections](https://www.nature.com/articles/s41467-020-15195-y/)** 
   - ***[Translation and Summary of the paper](https://www.notion.so/wentao-gao/Causal-networks-for-climate-model-evaluation-and-constrained-projections-1b78b4afe1a24ccca1a57d9d0bf776ec#d2eb67fd9a7a4b3daa3e518e403a51a8)***
-  - 用了什么模型
-  - 什么评价指标
-  - 数据是如何处理的
-  - 如何将数据使用模型进行训练与预测的
-- CMIP5/6 数据下载并整理成易使用的版本
 - [Tigramite – 时间序列数据集的因果推理](https://github.com/jakobrunge/tigramite)
 
 ## Toolboxes for Causality
