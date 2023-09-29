@@ -10,7 +10,7 @@ If this helps, please star me and follow me. If you have any questions, please f
 
 ***Github: https://github.com/gwt9970161/Climate-Change-in-Data-Science***
 
-***A quick overview of causality[Causality: an intro](https://www.researchgate.net/publication/374233586_Causality_A_Brief_Intro)***
+***A quick overview of causality: [Causality: an intro](https://www.researchgate.net/publication/374233586_Causality_A_Brief_Intro)***
 
 This project is what I am doing for now during my PhD research. I will mainly focused on casual network. Based on the current understanding of the project, there is a need to integrate causal inference with time series analysis. The objective is to utlize causality in time series prediction. Here are some important part of my research.
    
