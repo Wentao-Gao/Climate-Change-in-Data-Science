@@ -3,11 +3,11 @@
 @causality @time series prediction @long term forcasting @feature selection @causal transfer learning
 
 
-## Research Progress
+***Research Progress***
 
 - Finished Reshearch Proposal in 2023-10-05.
 
-## Next step
+***Next step***
 
 - Solve the first question: Causal based feature selection.
 
