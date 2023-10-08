@@ -3,6 +3,16 @@
 @causality @time series prediction @long term forcasting @feature selection @causal transfer learning
 
 
+## Research Progress
+
+- Finished Reshearch Proposal in 2023-10-05.
+
+## Next step
+
+- Solve the first question: Causal based feature selection.
+
+
+
 因果推断在气候预测中的应用
 
 If this helps, please star me and follow me. If you have any questions, please feel free to contact me.
