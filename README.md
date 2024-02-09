@@ -6,12 +6,15 @@
 ***Research Progress***
 
 - Finished Reshearch Proposal in 2023-10-05.
+- Finished My firsr conference paper for IJCAI in 2024-1-17.
 
 ***Next step***
 
-- Solve the first question: Causal based feature selection.
+- Thinking about how to combine causality and time series.
 
+***Blog***
 
+[Time series deconfounder](https://zhuanlan.zhihu.com/p/681178681)
 
 因果推断在气候预测中的应用
 
