@@ -7,10 +7,13 @@
 
 - Finished Reshearch Proposal in 2023-10-05.
 - Finished My firsr conference paper for IJCAI in 2024-1-17.
+- Got rejected by IJCAI.
 
 ***Next step***
 
-- Thinking about how to combine causality and time series.
+- Thinking about domain adaptation in time sereis forecasting.
+- Review and revise the paper about ica and resubmit to ECAI or ICDM.
+
 
 ***Blog***
 
@@ -19,6 +22,7 @@
 因果推断在气候预测中的应用
 
 If this helps, please star me and follow me. If you have any questions, please feel free to contact me.
+
 
 ***Author: Wentao Gao***
 
@@ -39,6 +43,10 @@ This project is what I am doing for now during my PhD research. I will mainly fo
    - Causal discovery algorithm
 
    - Feature selection methods
+
+
+## Domain adaptation paper collection
+
 
 ## Weekly plan:
 
