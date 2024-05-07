@@ -8,11 +8,11 @@
 - Finished Reshearch Proposal in 2023-10-05.
 - Finished My firsr conference paper for IJCAI in 2024-1-17.
 - Got rejected by IJCAI.
+- Submitted to ECAI in 2024-04-25
 
 ***Next step***
 
 - Thinking about domain adaptation in time sereis forecasting.
-- Review and revise the paper about ica and resubmit to ECAI or ICDM.
 
 
 ***Blog***
