@@ -9,10 +9,17 @@
 - Finished My firsr conference paper for IJCAI in 2024-1-17.
 - Got rejected by IJCAI.
 - Submitted to ECAI in 2024-04-25
+- Finished my second conference paper for AAAI in 2024-08-12.
+- AAAI under review.
+- Prepare my third paper for ICASSP
 
 ***Next step***
 
 - Thinking about domain adaptation in time sereis forecasting.
+
+***Papers***
+
+[A Deconfounding Approach to Climate Model Bias Correction](https://arxiv.org/abs/2408.12063)
 
 
 ***Blog***
