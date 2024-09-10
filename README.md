@@ -12,10 +12,13 @@
 - Finished my second conference paper for AAAI in 2024-08-12.
 - AAAI under review.
 - Prepare my third paper for ICASSP
+- Finished my third paper for ICASSP in 2024-09-10
+- First paper got accepted by AJCAI 2024 Oral.
+- Prepare my fourth paper for ECML-PKDD, solving zero inflated problem.
 
 ***Next step***
 
-- Thinking about domain adaptation in time sereis forecasting.
+- Try to solve zero inflated problem
 
 ***Papers***
 
