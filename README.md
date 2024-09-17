@@ -11,10 +11,11 @@
 - Submitted to ECAI in 2024-04-25
 - Finished my second conference paper for AAAI in 2024-08-12.
 - AAAI under review.
-- Prepare my third paper for ICASSP
+- Prepare my third paper for ICASSP 2025
 - Finished my third paper for ICASSP in 2024-09-10
 - First paper got accepted by AJCAI 2024 Oral.
-- Prepare my fourth paper for ECML-PKDD, solving zero inflated problem.
+- Finished my fourth paper for ICRA 2025
+- Prepare my fifth paper for KDD, solving zero inflated problem.
 
 ***Next step***
 
