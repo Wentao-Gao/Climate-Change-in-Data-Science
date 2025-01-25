@@ -16,10 +16,15 @@
 - First paper got accepted by AJCAI 2024 Oral.
 - Finished my fourth paper for ICRA 2025
 - Prepare my fifth paper for KDD, solving zero inflated problem.
+- Got rejected by AAAI.
+- Zero inflation paper using improved transformer is submitted to ijcai, 
+while the other one which is using diffusion model submitted to ICML
+
 
 ***Next step***
 
-- Try to solve zero inflated problem
+- Next step should be preparing dataset for drought prediction and decide which one suits drought prediction better,
+Time series forecasting or classification.
 
 ***Papers***
 
@@ -34,6 +39,10 @@
 
 If this helps, please star me and follow me. If you have any questions, please feel free to contact me.
 
+***Latest work***
+During work in zero flation, I found that it is hard to find a good implementation for simulation data with zero inflation. So I will provide my implementation 
+for everyone who wants to use.
+
 
 ***Author: Wentao Gao***
 
@@ -42,6 +51,7 @@ If this helps, please star me and follow me. If you have any questions, please f
 ***A quick overview of causality: [Causality: an intro](https://www.researchgate.net/publication/374233586_Causality_A_Brief_Intro)***
 
 ***An introduction to AI: [Lecture Notes(in chinese)](https://wentao-gao.notion.site/Bristol-Intro-to-AI-8ba5854a9a8e49d9a2e1659af5446fa3?pvs=4)***
+
 
 This project is what I am doing for now during my PhD research. I will mainly focused on casual network. Based on the current understanding of the project, there is a need to integrate causal inference with time series analysis. The objective is to utlize causality in time series prediction. Here are some important part of my research.
    
