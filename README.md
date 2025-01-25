@@ -41,7 +41,8 @@ If this helps, please star me and follow me. If you have any questions, please f
 
 ***Latest work***
 During work in zero flation, I found that it is hard to find a good implementation for simulation data with zero inflation. So I will provide my implementation 
-for everyone who wants to use. Please find the github in anothe markdown file: [Zero Inflation Simulation](https://github.com/Wentao-Gao/Zero_inflation_data_simulation/tree/main)
+for everyone who wants to use. Please find the github in anothe markdown file: [Zero Inflation Simulation](https://github.com/Wentao-Gao/Zero_inflation_data_simulation/tree/main).
+This is also used in my paper. 
 
 
 ***Author: Wentao Gao***
