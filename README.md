@@ -44,6 +44,8 @@ During work in zero flation, I found that it is hard to find a good implementati
 for everyone who wants to use. Please find the github in anothe markdown file: [Zero Inflation Simulation](https://github.com/Wentao-Gao/Zero_inflation_data_simulation/tree/main).
 This is also used in my paper. 
 
+[ElNino data download](https://psl.noaa.gov/data/timeseries/month/DS/Nino4/)
+
 
 ***Author: Wentao Gao***
 
