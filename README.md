@@ -19,6 +19,7 @@
 - Got rejected by AAAI.
 - Zero inflation paper using improved transformer is submitted to ijcai, 
 while the other one which is using diffusion model submitted to ICML
+- Good news, The paper submitted to IJCAI2025 got accepted.
 
 
 ***Next step***
