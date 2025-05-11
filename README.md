@@ -20,12 +20,13 @@
 - Zero inflation paper using improved transformer is submitted to ijcai, 
 while the other one which is using diffusion model submitted to ICML
 - Good news, The paper submitted to IJCAI2025 got accepted.
+- The paper regarding zero inflation Submitted to IJCAI2025 and ICML got rejected, resubmitted to KR2025 and ECAI2025 seperately.
+- My next paper trying to use foundation models without any finetuning or retraining for localized spei prediction have submitted to Nips2025.
 
 
 ***Next step***
 
-- Next step should be preparing dataset for drought prediction and decide which one suits drought prediction better,
-Time series forecasting or classification.
+- Next step should be trying to make the full use of Frozen Time series foundation models for prediction.
 
 ***Papers***
 
