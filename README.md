@@ -28,9 +28,69 @@ while the other one which is using diffusion model submitted to ICML
 
 - Next step should be trying to make the full use of Frozen Time series foundation models for prediction.
 
-***Papers***
 
-[A Deconfounding Approach to Climate Model Bias Correction](https://arxiv.org/abs/2408.12063)
+### 📄 Publications (Wentao Gao)
+
+#### 🔹 2025
+
+* **A Deconfounding Approach to Climate Model Bias Correction**
+  *Wentao Gao*, Jiuyong Li, Debo Cheng, Lin Liu, Jixue Liu, Thuc Duy Le, Xiaojing Du, Xiongren Chen, Yanchang Zhao, Yun Chen
+  *IJCAI 2025 (Oral & Poster)*
+  [arXiv:2408.12063](https://arxiv.org/abs/2408.12063)
+
+* **Diffusion Models for Attribution**
+  Xiongren Chen, Jiuyong Li, Jixue Liu, Lin Liu, Stefan Peters, Thuc Duy Le, *Wentao Gao*, Xiaojing Du, Anthony Walsh
+  *AAAI 2025*
+  [Paper link](https://ojs.aaai.org/index.php/AAAI/article/view/29492)
+
+* **Fisher Divergence for Attribution through Stochastic Differential Equations**
+  Xiongren Chen, Jiuyong Li, Jixue Liu, Lin Liu, Stefan Peters, Thuc Duy Le, *Wentao Gao*, Xiaojing Du
+  *AAAI 2025*
+  [arXiv:2409.08544](https://arxiv.org/abs/2409.08544)
+
+* **Telling Peer Direct Effects from Indirect Effects in Observational Network Data**
+  Xiaojing Du, Jiuyong Li, Debo Cheng, Lin Liu, *Wentao Gao*, Xiongren Chen, Ziqi Xu
+  *ICML 2025*
+  [arXiv:2408.11492](https://arxiv.org/abs/2408.11492)
+
+#### 🔹 2024
+
+* **TSI: A Multi-view Representation Learning Approach for Time Series Forecasting**
+  *Wentao Gao*, Ziqi Xu, Jiuyong Li, Lin Liu, Jixue Liu, Thuc Duy Le, Debo Cheng, Yanchang Zhao, Yun Chen
+  *AJCAI 2024 (Oral)*
+  [Springer Link](https://link.springer.com/chapter/10.1007/978-981-97-0721-1_23)
+
+* **Instrumental Variable Estimation for Causal Inference in Longitudinal Data with Time-dependent Latent Confounders**
+  Debo Cheng, Ziqi Xu, Jiuyong Li, Lin Liu, Jixue Liu, *Wentao Gao*, Thuc Duy Le
+  *AAAI 2024*
+  [AAAI Link](https://ojs.aaai.org/index.php/AAAI/article/view/28712)
+
+* **Causal GNNs: A GNN-Driven Instrumental Variable Approach for Causal Inference in Networks**
+  Xiaojing Du, Fei Yang, *Wentao Gao*, Xiongren Chen
+  *arXiv preprint*
+  [arXiv:2409.08544](https://arxiv.org/abs/2409.08544)
+
+* **Deconfounding Time Series Forecasting**
+  *Wentao Gao*, Fei Yang, Ming Hong, Xiaojing Du, Zhenyu Hu, Xiongren Chen, Ziqi Xu
+  *arXiv preprint*
+  [arXiv:2410.21328](https://arxiv.org/abs/2410.21328)
+
+* **A Deconfounding Framework for Human Behavior Prediction: Enhancing Robotic Systems in Dynamic Environments**
+  *Wentao Gao*, Cheng Zhou
+  *arXiv preprint*
+  [arXiv:2410.20423](https://arxiv.org/abs/2410.20423)
+
+* **Uncovering the Secrets of Human-Like Movement: A Fresh Perspective on Motion Planning**
+  Li Shi, Qiang Liu, Cheng Zhou, *Wentao Gao*, Hong Wu, Yifan Zheng, Xiaohui Li
+  *arXiv preprint*
+  [arXiv:2409.10747](https://arxiv.org/abs/2409.10747)
+
+#### 🔹 2023
+
+* **A Unified Trajectory Generation Algorithm for Dynamic Dexterous Manipulation**
+  Cheng Zhou, *Wentao Gao*, Wen Lu, Yifan Long, Shuang Yang, Lin Zhao, Bo Huang, Yifan Zheng
+  *IEEE/RSJ IROS 2023*
+  [IEEE Xplore](https://ieeexplore.ieee.org/document/10342202)
 
 
 ***Blog***
