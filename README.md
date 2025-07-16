@@ -22,6 +22,8 @@ while the other one which is using diffusion model submitted to ICML
 - Good news, The paper submitted to IJCAI2025 got accepted.
 - The paper regarding zero inflation Submitted to IJCAI2025 and ICML got rejected, resubmitted to KR2025 and ECAI2025 seperately.
 - My next paper trying to use foundation models without any finetuning or retraining for localized spei prediction have submitted to Nips2025.
+- The paper submitted to ECAI2025 got accepted.
+- Next is preparing the paper for AAAI2026 and ICLR2026
 
 
 ***Next step***
