@@ -67,10 +67,6 @@ while the other one which is using diffusion model submitted to ICML
   [Paper link](https://ojs.aaai.org/index.php/AAAI/article/view/29492)
   Proposes a diffusion-model-based attribution framework via Information Bottleneck theory; assisted with theory and optimization design.
 
-* **Fisher Divergence for Attribution through Stochastic Differential Equations**
-  Xiongren Chen, Jiuyong Li, Jixue Liu, Lin Liu, Stefan Peters, Thuc Duy Le, *Wentao Gao*, Xiaojing Du
-  *Under Review*
-  [arXiv:2409.08544](https://arxiv.org/abs/2409.08544)
 
 #### 🔹 2024
 * **TSI: A Multi-view Representation Learning Approach for Time Series Forecasting**
