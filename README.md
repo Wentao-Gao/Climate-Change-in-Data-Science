@@ -69,7 +69,7 @@ while the other one which is using diffusion model submitted to ICML
 
 * **Fisher Divergence for Attribution through Stochastic Differential Equations**
   Xiongren Chen, Jiuyong Li, Jixue Liu, Lin Liu, Stefan Peters, Thuc Duy Le, *Wentao Gao*, Xiaojing Du
-  *AAAI 2025*
+  *Under Review*
   [arXiv:2409.08544](https://arxiv.org/abs/2409.08544)
 
 #### 🔹 2024
