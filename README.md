@@ -24,6 +24,8 @@ while the other one which is using diffusion model submitted to ICML
 - My next paper trying to use foundation models without any finetuning or retraining for localized spei prediction have submitted to Nips2025.
 - The paper submitted to ECAI2025 got accepted.
 - Next is preparing the paper for AAAI2026 and ICLR2026
+- 2 papers submitted to AAAI2026(One is Wrapper, the other one is DET)
+- Residual Correction idea will submitted to ICLR2026
 
 
 ***Next step***
@@ -34,38 +36,54 @@ while the other one which is using diffusion model submitted to ICML
 ### 📄 Publications (Wentao Gao)
 
 #### 🔹 2025
-
-* **A Deconfounding Approach to Climate Model Bias Correction**
-  *Wentao Gao*, Jiuyong Li, Debo Cheng, Lin Liu, Jixue Liu, Thuc Duy Le, Xiaojing Du, Xiongren Chen, Yanchang Zhao, Yun Chen
+* **Deconfounding Multi-Cause Latent Confounders: A Factor-Model Approach to Climate Model Bias Correction**
+  *Wentao Gao*, Jiuyong Li et al.
   *IJCAI 2025 (Oral & Poster)*
-  [arXiv:2408.12063](https://arxiv.org/abs/2408.12063)
+  Proposes a factor-model-based bias correction method for Global Climate Models, addressing unobserved confounders to improve precipitation accuracy.
+
+* **From Noise to Precision: A Diffusion-Driven Approach to Zero-Inflated Precipitation Prediction**
+  *Wentao Gao*, Jiuyong Li et al.
+  *ECAI 2025 (Oral & Poster)*
+  Proposes the Zero Inflation Diffusion Framework (ZIDF) integrating Gaussian perturbation, Transformer-based prediction, and diffusion-based denoising to robustly forecast zero-inflated precipitation data.
+
+* **PCFNet: Enhancing Time Series Forecasting through Preserving Constant Frequency**
+  Wenjun Yu, Wen Li, *Wentao Gao*, Wangyu Wu, Shouguo Du, Jiyanglin Li
+  *ECAI 2025 (Oral & Poster)*
+  Proposes PCFNet, a frequency-domain forecasting model that preserves constant frequency components for long-term prediction; achieves SOTA across six real-world datasets.
+
+* **G-GLformer: Transformer with GRU Embedding and Global-Local Attention for Multivariate Time Series Forecasting**
+  Wenjun Yu, Jiyanglin Li, *Wentao Gao*, Niangxi Zhuang, Wen Li, Shouguo Du
+  *ECML-PKDD 2025*
+  Introduces G-GLformer combining Bidirectional-Patch-GRU-Embedding and Global-Local Attention to enhance temporal modeling and noise-robustness in multivariate time series forecasting.
+
+* **Estimating Peer Direct and Indirect Effects in Observational Network Data**
+  Xiaojing Du, Jiuyong Li, *Wentao Gao* et al.
+  *ICML 2025 (Poster)*
+  Develops a GNN-based model for causal peer effect estimation in networks, incorporating attention and HSIC regularization.
 
 * **Diffusion Models for Attribution**
-  Xiongren Chen, Jiuyong Li, Jixue Liu, Lin Liu, Stefan Peters, Thuc Duy Le, *Wentao Gao*, Xiaojing Du, Anthony Walsh
-  *AAAI 2025*
+  Xiongren Chen, Jiuyong Li, *Wentao Gao* et al.
+  *AAAI 2025 (Poster)*
   [Paper link](https://ojs.aaai.org/index.php/AAAI/article/view/29492)
+  Proposes a diffusion-model-based attribution framework via Information Bottleneck theory; assisted with theory and optimization design.
 
 * **Fisher Divergence for Attribution through Stochastic Differential Equations**
   Xiongren Chen, Jiuyong Li, Jixue Liu, Lin Liu, Stefan Peters, Thuc Duy Le, *Wentao Gao*, Xiaojing Du
   *AAAI 2025*
   [arXiv:2409.08544](https://arxiv.org/abs/2409.08544)
 
-* **Telling Peer Direct Effects from Indirect Effects in Observational Network Data**
-  Xiaojing Du, Jiuyong Li, Debo Cheng, Lin Liu, *Wentao Gao*, Xiongren Chen, Ziqi Xu
-  *ICML 2025*
-  [arXiv:2408.11492](https://arxiv.org/abs/2408.11492)
-
 #### 🔹 2024
-
 * **TSI: A Multi-view Representation Learning Approach for Time Series Forecasting**
-  *Wentao Gao*, Ziqi Xu, Jiuyong Li, Lin Liu, Jixue Liu, Thuc Duy Le, Debo Cheng, Yanchang Zhao, Yun Chen
+  *Wentao Gao*, Ziqi Xu et al.
   *AJCAI 2024 (Oral)*
   [Springer Link](https://link.springer.com/chapter/10.1007/978-981-97-0721-1_23)
+  Combines trend-seasonal decomposition and ICA into a multi-view framework, capturing nuanced nonlinear dynamics in time series forecasting.
 
 * **Instrumental Variable Estimation for Causal Inference in Longitudinal Data with Time-dependent Latent Confounders**
   Debo Cheng, Ziqi Xu, Jiuyong Li, Lin Liu, Jixue Liu, *Wentao Gao*, Thuc Duy Le
-  *AAAI 2024*
+  *AAAI 2024 (Poster)*
   [AAAI Link](https://ojs.aaai.org/index.php/AAAI/article/view/28712)
+  Extends IV methods to time-dependent latent confounders in longitudinal datasets; contributed time-series experiment design.
 
 * **Causal GNNs: A GNN-Driven Instrumental Variable Approach for Causal Inference in Networks**
   Xiaojing Du, Fei Yang, *Wentao Gao*, Xiongren Chen
@@ -88,13 +106,11 @@ while the other one which is using diffusion model submitted to ICML
   [arXiv:2409.10747](https://arxiv.org/abs/2409.10747)
 
 #### 🔹 2023
-
 * **A Unified Trajectory Generation Algorithm for Dynamic Dexterous Manipulation**
   Cheng Zhou, *Wentao Gao*, Wen Lu, Yifan Long, Shuang Yang, Lin Zhao, Bo Huang, Yifan Zheng
   *IEEE/RSJ IROS 2023*
   [IEEE Xplore](https://ieeexplore.ieee.org/document/10342202)
-
-
+  
 ***Blog***
 
 [Time series deconfounder](https://zhuanlan.zhihu.com/p/681178681)
