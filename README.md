@@ -46,8 +46,8 @@ This research project explores the intersection of **causal inference** and **ti
 | **IJCAI 2025** | ✅ **Accepted** | Deconfounding Multi-Cause Latent Confounders |
 | **ECAI 2025** | ✅ **Accepted** | Zero-Inflated Precipitation Prediction |
 | **AAAI 2026** | 📤 **Submitted** | Wrapper & DET Approaches |
-| **ICLR 2026** | 🔄 **In Prep** | Residual Correction Method |
-| **NeurIPS 2025** | 📤 **Submitted** | Foundation Models for SPEI Prediction |
+| **ICLR 2026** | 📤 **Submitted** | Residual Correction Method |
+| **NeurIPS 2025** | 📤 **Rejected** | Foundation Models for SPEI Prediction |
 
 </details>
 
