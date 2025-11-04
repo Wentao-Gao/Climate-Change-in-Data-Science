@@ -31,9 +31,10 @@ This research project explores the intersection of **causal inference** and **ti
 2024-04-25  📝 ECAI Submission
 2024-08-12  📝 Second AAAI Paper Completed
 2024-09-10  📝 Third ICASSP Paper Completed
-2024-11-XX  🎉 First Paper Accepted by AJCAI 2024 (Oral)
-2025-XX-XX  🎉 IJCAI 2025 Acceptance
-2025-XX-XX  🎉 ECAI 2025 Acceptance
+2024-11-11  🎉 First Paper Accepted by AJCAI 2024 (Oral)
+2025-05-01  🎉 IJCAI 2025 Acceptance
+2025-06-01  🎉 ECAI 2025 Acceptance
+2025-11-04  🎉 AAAI 2026 Acceptance (DET)
 ```
 
 </details>
@@ -45,8 +46,10 @@ This research project explores the intersection of **causal inference** and **ti
 |------------|--------|-------------|
 | **IJCAI 2025** | ✅ **Accepted** | Deconfounding Multi-Cause Latent Confounders |
 | **ECAI 2025** | ✅ **Accepted** | Zero-Inflated Precipitation Prediction |
-| **AAAI 2026** | 📤 **Submitted** | Wrapper & DET Approaches |
+| **AAAI 2026** | ✅ **Accepted** | DET Approaches |
 | **ICLR 2026** | 📤 **Submitted** | Residual Correction Method |
+| **WWW 2026** | 📤 **Preparing** | Wrapper |
+| **AAAI 2026** | 📤 **Rejected** | Wrapper |
 | **NeurIPS 2025** | 📤 **Rejected** | Foundation Models for SPEI Prediction |
 
 </details>
