@@ -35,6 +35,7 @@ This research project explores the intersection of **causal inference** and **ti
 2025-05-01  🎉 IJCAI 2025 Acceptance
 2025-06-01  🎉 ECAI 2025 Acceptance
 2025-11-04  🎉 AAAI 2026 Acceptance (DET)
+2026-01-14  🎉 WWW 2026 Acceptance (TF-ZIC)
 ```
 
 </details>
@@ -47,8 +48,10 @@ This research project explores the intersection of **causal inference** and **ti
 | **IJCAI 2025** | ✅ **Accepted** | Deconfounding Multi-Cause Latent Confounders |
 | **ECAI 2025** | ✅ **Accepted** | Zero-Inflated Precipitation Prediction |
 | **AAAI 2026** | ✅ **Accepted** | DET Approaches |
+| **WWW 2026** | ✅ **Accepted** | TFZIC |
 | **ICLR 2026** | 📤 **Submitted** | Residual Correction Method |
-| **WWW 2026** | 📤 **Preparing** | Wrapper |
+| **ICML 2026** | 📤 **Preparing** | Wrapper |
+| **WWW 2026** | 📤 **Rejected** | Wrapper |
 | **AAAI 2026** | 📤 **Rejected** | Wrapper |
 | **NeurIPS 2025** | 📤 **Rejected** | Foundation Models for SPEI Prediction |
 
@@ -60,26 +63,18 @@ This research project explores the intersection of **causal inference** and **ti
 
 ### 🌟 2025 Highlights
 
-<table>
-<tr>
-<td width="60%">
+- **Deconfounding Multi-Cause Latent Confounders**  
+  IJCAI 2025 (Oral & Poster)  
+  → Climate model bias correction via latent factor modeling
 
-**Deconfounding Multi-Cause Latent Confounders: A Factor-Model Approach to Climate Model Bias Correction**
-- *Authors:* **Wentao Gao**, Jiuyong Li et al.
-- *Venue:* IJCAI 2025 (Oral & Poster)
-- *Focus:* Factor-model-based bias correction for Global Climate Models
+- **From Noise to Precision**  
+  ECAI 2025 (Oral & Poster)  
+  → Diffusion-based modeling for zero-inflated precipitation
 
-</td>
-<td width="40%">
+- **Deep Extreme Transformer (DET)**  
+  AAAI 2026 (Poster)
+  → Extreme attention and Tweedie modeling for sparse rainfall forecasting
 
-**From Noise to Precision: A Diffusion-Driven Approach to Zero-Inflated Precipitation Prediction**
-- *Authors:* **Wentao Gao**, Jiuyong Li et al.
-- *Venue:* ECAI 2025 (Oral & Poster)
-- *Focus:* Zero Inflation Diffusion Framework (ZIDF)
-
-</td>
-</tr>
-</table>
 
 ### 📖 Complete Publication List
 
@@ -178,8 +173,7 @@ graph TD
 </div>
 
 ### Upcoming Work
-- [ ] **AAAI 2026** - Wrapper and DET methodology papers
-- [ ] **ICLR 2026** - Residual correction approach
+- [ ] **IJCAI 2026** - Phycal Guided Framework for Foundation Models in Drought Prediction 
 - [ ] **Foundation Model Integration** - Zero-shot climate prediction
 - [ ] **Comprehensive Evaluation** - Multi-dataset validation
 
