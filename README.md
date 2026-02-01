@@ -75,6 +75,10 @@ This research project explores the intersection of **causal inference** and **ti
   AAAI 2026 (Poster)
   → Extreme attention and Tweedie modeling for sparse rainfall forecasting
 
+- **Energy-Efficient Training-Free Zero-Inflation Correction for Rainfall Forecasting with Time-Series Foundation Models**
+  WWW 2026 （Poster）
+  → Framework for correcting output of foundation model
+
 
 ### 📖 Complete Publication List
 
