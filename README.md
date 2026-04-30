@@ -36,6 +36,7 @@ This research project explores the intersection of **causal inference** and **ti
 2025-06-01  🎉 ECAI 2025 Acceptance
 2025-11-04  🎉 AAAI 2026 Acceptance (DET)
 2026-01-14  🎉 WWW 2026 Acceptance (TF-ZIC)
+2026-04-30  🎉 IJCAI 2026 Acceptance (PhyTTA)
 ```
 
 </details>
