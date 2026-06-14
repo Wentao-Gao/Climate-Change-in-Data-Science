@@ -50,11 +50,9 @@ This research project explores the intersection of **causal inference** and **ti
 | **ECAI 2025** | ✅ **Accepted** | Zero-Inflated Precipitation Prediction |
 | **AAAI 2026** | ✅ **Accepted** | DET Approaches |
 | **WWW 2026** | ✅ **Accepted** | TFZIC |
-| **ICML 2026** | 📤 **Submitted** | Residual Correction Method |
-| **ICML 2026** | 📤 **Submitted** | Wrapper |
-| **KDD 2026** | 📤 **Submitted** | Wrapper |
-| **AAAI 2026** | 📤 **Rejected** | Wrapper |
-| **NeurIPS 2025** | 📤 **Rejected** | Foundation Models for SPEI Prediction |
+| **ICML 2026** | ✅ **Accepted** | Residual Correction Method |
+| **KDD 2026** | ✅ **Accepted** | Wrapper |
+| **IJCAI 2026** | ✅ **Accepted** | PhyTTA|
 
 </details>
 
